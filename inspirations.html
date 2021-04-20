@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Domicycles</title>
+    <meta name="Domicycles" content="Dominique Audigé Junker entretient et répare votre vélo à domicile, entre Saint-Malo et Cancale.">
+    <meta charset="utf-8">
+    <!-- pour afficher le favicon: -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- pour lier le CSS: -->
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- pour les fonts Google: -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!-- pour les icones FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <!-- pour facebook : -->
+    <meta property="og:title" content="Domicycles - Entretien et réparation de vélos à domicile">
+    <meta property="og:image" content="domicycles_accueil.jpg">
+    <meta property="og:description" content="Amoureux de ma région et de cette côte d'émeraude si fabuleuse, je propose mes services de réparation et de location de vélos afin que vous, locaux, provinciaux et gens du monde puissiez (re)découvrir ces paysages bretons avec une autre perspective. Je saurai vous guider et vous accompagner pour que votre séjour ou vos week-end riment avec simplicité, sécurité et fun.">
+    <meta property="og:site_name" content="Domicycles"/>
+  </head>
+
+  <body>
+    <header class="navbar">
+      <a href="index.html" class="navbar-logo"><img src="images/logo.png" alt="logo Domicycles" width=150px></a>
+      <nav class="navbar-nav">
+        <a href="services.html">Qui suis-je ?</a>
+        <a href="inspirations.html" class="active">Mes inspirations</a>
+        <a href="contact.html">Me contacter</a>
+      </nav>
+    </header>
+
+          <!--<div class="caroussel">
+            <img class="card_inspi" src="images/inspi/peugeot_vintage_custom.jpg" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+this.width+', height='+this.height);" />
+            <img class="card_inspi" src="images/inspi/velo_plage.jpg" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+this.width+', height='+this.height);" />
+            <img class="card_inspi" src="images/inspi/vintage_black.jpg" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+this.width+', height='+this.height);" />
+            <img class="card_inspi" src="images/inspi/peugeot_vintage_singlespeed.jpg" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+this.width+', height='+this.height);" />
+            <img class="card_inspi" src="images/inspi/vintage_velo_ville.jpg" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+this.width+', height='+this.height);" />
+            <img class="card_inspi" src="images/inspi/positive_vibes.jpg" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+this.width+', height='+this.height);" />
+            <img class="card_inspi" src="images/inspi/velo_dream.jpg" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+this.width+', height='+this.height);" />
+            <img class="card_inspi" src="images/inspi/time_is_now.jpg" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+this.width+', height='+this.height);" />
+            <img class="card_inspi" src="images/inspi/fixie_vintage.jpg" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+this.width+', height='+this.height);" />
+            <img class="card_inspi" src="images/inspi/saddle.jpg" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+this.width+', height='+this.height);" />
+            <img class="card_inspi" src="images/inspi/bicycle.jpg" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+this.width+', height='+this.height);" />
+            <img class="card_inspi" src="images/inspi/road-bike.jpg" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+this.width+', height='+this.height);" />
+            <img class="card_inspi" src="images/inspi/vibes.jpg" onclick="window.open(this.src,'_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=0, copyhistory=0, menuBar=0, width='+this.width+', height='+this.height);" />
+          </div>
+
+
+            <img src="images/inspi/peugeot_vintage_custom.jpg" alt="">
+            <img src="images/inspi/velo_plage.jpg" alt="">
+            <img src="images/inspi/vintage_black.jpg" alt="">
+            <img src="images/inspi/peugeot_vintage_singlespeed" alt="">
+            <img src="images/inspi/vintage_velo_ville.jpg" alt="">
+            <img src="images/inspi/positive_vibes.jpg" alt="">
+            <img src="images/inspi/velo_dream.jpg" alt="">
+            <img src="images/inspi/time_is_now.jpg" alt="">-->
+
+<div class="grille">
+
+  <div class="gallery-container w-2 h-4">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="images/inspi/peugeot_vintage_custom.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-container w-4 h-2">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="images/inspi/velo_plage.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-container w-4 h-2">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="images/inspi/vintage_black.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-container w-4 h-2">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="images/inspi/saddle.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-container w-4 h-2">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="images/inspi/bicycle.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-container w-2 h-4">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="images/inspi/peugeot_vintage_singlespeed.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="gallery-container w-2 h-4">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="images/inspi/vintage_velo_ville.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-container w-2 h-4">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="images/inspi/positive_vibes.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-container w-2 h-4">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="images/inspi/velo_dream.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-container w-2 h-4">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="images/inspi/time_is_now.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-container w-4 h-2">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="images/inspi/fixie_vintage.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-container w-4 h-2">
+    <div class="gallery-item">
+      <div class="image">
+        <img src="images/inspi/road-bike.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+    <footer class="footer">
+      <p>Suivez-moi sur les réseaux sociaux :</p>
+      <nav class="footer-links">
+        <a href="https://www.facebook.com/Domicycles35"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/domicycles/?hl=fr"><i class="fab fa-instagram-square"></i></a>
+      </nav>
+    </footer>
+  </body>
+</html>

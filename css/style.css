@@ -1,0 +1,176 @@
+/* --- Import pagess stylesheets --- */
+@import url("pages/services.css");
+@import url("pages/inspirations.css");
+@import url("pages/contact.css");
+
+body  {
+  background: #F1F1F1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: rgba(0,0,0,0.8);
+  margin: 0;
+  line-height: 1.3;
+}
+
+a {
+  color: inherit;
+}
+
+.home {
+  background-image: url(../images/domicycles_accueil.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, .80);
+    color: rgba(0,0,0,0.8);
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar-logo {
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.navbar-nav {
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.navbar-nav  a {
+  font-size: 12px;
+  display: inline-block;
+  margin: 0 8px;
+  color: rgba(0,0,0,0.8);
+  transition: color .3s;
+}
+
+.navbar-nav a:hover {
+  color : #45A3A8;
+}
+
+.navbar-nav a.active {
+  color : #45A3A8;
+}
+
+.baseline img {
+  width: 100vw;
+  background-color: rgba(255, 255, 255, .40);
+  /*position: absolute;
+  top: 200px;*/
+}
+
+.footer {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, .90);
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: rgba(0,0,0,0.8);
+  transition: color .3s;
+  font-size: 20px;
+  padding: 0px 8px;
+}
+
+.footer-links a:hover {
+  color : #45A3A8;
+}
+
+@media only screen and (min-width: 740px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 24px;
+  }
+
+  .navbar-logo,
+  .navabar-nav {
+    padding: 0;
+  }
+
+  .navbar-nav a {
+    font-size: 20px;
+    margin: 0 20px;
+    padding-top: 24px;
+  }
+
+  .baseline img {
+    width: 400px;
+    background-color: rgba(255, 255, 255, .0);
+  }
+
+  .baseline {
+    position: absolute;
+    top: 90px;
+    right: 10px;
+    padding-right: 10px;
+  }
+
+  .footer {
+    font-size: 20px;
+  }
+
+  .footer-links a {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 1130px) {
+  .navbar-nav  a {
+  font-size: 24px;
+  margin: 0 24px;
+}
+
+  .baseline img {
+    width: 500px;
+    background-color: rgba(255, 255, 255, .0);
+  }
+
+  .baseline {
+    position: absolute;
+    top: 160px;
+    right: 20px;
+    padding-right: 40px;
+  }
+  .footer p {
+    font-size: 22px;
+  }
+
+  .footer-links a {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (min-width: 1260px) {
+  .baseline img {
+    width: 600px;
+    background-color: rgba(255, 255, 255, .0);
+  }
+
+  .baseline {
+    position: absolute;
+    top: 160px;
+    right: 20px;
+    padding-right: 60px;
+  }
+}
+

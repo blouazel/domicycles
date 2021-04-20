@@ -1,0 +1,86 @@
+body  {
+  background: #F1F1F1;
+}
+
+.container-services {
+  padding: 0 20px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-services img {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.presentation img {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.presentation p {
+  text-align: center;
+}
+
+.card_services {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.presentation h2,
+.card_services h2 {
+  text-align: center;
+  color : #45A3A8;
+}
+
+@media only screen and (min-width: 740px) {
+  p, ul {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .presentation {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card_services h2 {
+  text-align: left;
+  }
+
+  .card_services h3 {
+    text-align: left;
+    padding-left: 50px;
+  }
+
+  .card_services ul {
+    padding-left: 80px;
+  }
+
+  .presentation p,
+  .presentation h2,
+  .card_services p {
+    text-align: left;
+    padding-left: 50px;
+  }
+}
