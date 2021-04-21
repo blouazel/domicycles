@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "app_id": "app_2e89adfb-46e8-4e2f-aacc-8b1ba760e2d1",
+      "org_id": "user_adc2239a-36e1-436b-82f0-d9592cb9439a",
+      "deploy_url": "https://push-n2-par-clevercloud-customers.services.clever-cloud.com/app_2e89adfb-46e8-4e2f-aacc-8b1ba760e2d1.git",
+      "name": "domicycles",
+      "alias": "domicycles"
+    }
+  ]
+}
