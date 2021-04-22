@@ -49,6 +49,50 @@ body  {
   color : #45A3A8;
 }
 
+/* image cliquable dans une popup */
+#cache {
+    position:absolute;
+    background:rgba(0,0,0,0);
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index: -1;
+    transition:background .5s
+}
+#cache:target {
+    background:rgba(0,0,0,.5);
+    z-index: 1;
+}
+.popup {
+    position:absolute;
+    z-index: 1000;
+    display:none;
+    top:30px;
+    left:auto;
+}
+.popup a {
+    position:absolute;
+    background: #333;
+    color:#fff;
+    border-radius: 50%;
+    width:20px;
+    line-height: 20px;
+    text-align: center;
+    font-family:arial;
+    right:0;
+    text-decoration: none;
+}
+
+#cache:target ~ .popup {
+    display:block;
+}
+
+.popup img {
+  width: 100%;
+  height: auto
+}
+
 @media only screen and (min-width: 375px) {
   .contact img {
     height: 200px;
@@ -59,6 +103,10 @@ body  {
   }
   .coordonnees {
   padding: 12px;
+  }
+  .popup img {
+  width: 90%;
+  height: auto
   }
 }
 
@@ -73,11 +121,15 @@ body  {
   .coordonnees {
   padding: 16px;
   }
+  .popup img {
+  width: 80%;
+  height: auto
+  }
 }
 
 @media only screen and (min-width: 740px) {
   .contact img {
-    max-width: 45vw;
+    width: 45vw;
     height: auto;
   }
   .contact {
@@ -91,5 +143,9 @@ body  {
   }
   .coordonnees {
     font-size: 20px;
+  }
+  .popup img {
+  width: 80%;
+  height: auto
   }
 }
