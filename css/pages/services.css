@@ -38,13 +38,14 @@ body  {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.card_services h3 {
+.card_services h2 {
+  font-size: 16px;
   font-weight: 400;
   color: rgba(0,0,0,0.9);
 }
 
-.presentation h2,
-.card_services h2 {
+.presentation h1,
+.card_services h1 {
   text-align: center;
   font-weight: 300;
   color : #45A3A8;
@@ -55,11 +56,11 @@ body  {
     font-size: 16px;
   }
 
-  h3 {
+  h2 {
     font-size: 20px;
   }
 
-  h2 {
+  h1 {
     font-size: 24px;
   }
 
@@ -75,11 +76,11 @@ body  {
     margin-right: auto;
   }
 
-  .card_services h2 {
+  .card_services h1 {
   text-align: left;
   }
 
-  .card_services h3 {
+  .card_services h2 {
     text-align: left;
     padding-left: 50px;
   }
@@ -89,7 +90,7 @@ body  {
   }
 
   .presentation p,
-  .presentation h2,
+  .presentation h1,
   .card_services p {
     text-align: left;
     padding-left: 50px;
