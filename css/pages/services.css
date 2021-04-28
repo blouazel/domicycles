@@ -16,6 +16,10 @@ body  {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
+.presentation {
+  padding-top: 20px;
+}
+
 .presentation img {
   width: 300px;
   text-align: center;
@@ -60,6 +64,7 @@ body  {
   }
 
   .presentation {
+    padding-top: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
